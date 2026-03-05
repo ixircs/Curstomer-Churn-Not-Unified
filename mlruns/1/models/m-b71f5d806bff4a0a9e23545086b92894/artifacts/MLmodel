@@ -1,0 +1,23 @@
+artifact_path: file:///C:/Storage/Documents/Kuliah/SEM 4/MD/Non Unified Model Deployment/churn_withoutUnified/mlruns/1/models/m-b71f5d806bff4a0a9e23545086b92894/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.14
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.8.0
+    skops_trusted_types: null
+mlflow_version: 3.10.0
+model_id: m-b71f5d806bff4a0a9e23545086b92894
+model_size_bytes: 165207
+model_uuid: m-b71f5d806bff4a0a9e23545086b92894
+prompts: null
+run_id: 28ea5e98d3434b14a47e426be24e311b
+utc_time_created: '2026-03-05 09:14:01.412304'
