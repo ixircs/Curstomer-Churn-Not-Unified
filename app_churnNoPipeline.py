@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 
 # Load the machine learning model and encode
-model = joblib.load('artifacts/model_.pkl')
+model = joblib.load('artifacts/model.pkl')
 impute_stats=joblib.load('artifacts/impute_stats.pkl')
 ordinal_encode_subs=joblib.load('artifacts/ordinal_encode_subs.pkl')
 ordinal_encode_cont=joblib.load('artifacts/ordinal_encode_cont.pkl')
